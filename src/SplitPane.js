@@ -153,7 +153,6 @@ class SplitPane extends Component {
             Object.assign(style, {
                 flexDirection: 'row',
                 height: '100%',
-                position: 'absolute',
                 left: 0,
                 right: 0,
             });
@@ -162,7 +161,6 @@ class SplitPane extends Component {
                 flexDirection: 'column',
                 height: '100%',
                 minHeight: '100%',
-                position: 'absolute',
                 top: 0,
                 bottom: 0,
                 width: '100%',
